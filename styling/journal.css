@@ -1,0 +1,38 @@
+.main {
+    /* align-self: self-start !important;
+    justify-self: self-start !important; */
+    text-align: left;
+    width: 50rem;
+    display: grid;
+    row-gap: 7px;
+}
+
+a > span {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.what > p {
+    font-size: 13px;
+    margin: 0px;
+}
+
+.what > a {
+    text-decoration: underline; 
+    font-size: 20px;
+}
+
+#links {
+    text-align: justify;
+    line-height: 0;
+}
+  
+#links:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+h2 {
+    line-height: 0;
+}
