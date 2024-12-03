@@ -7,6 +7,28 @@
     row-gap: 7px;
 }
 
+body, html {
+    background: rgb(38,67,121);
+    background: radial-gradient(circle, rgba(38,67,121,1) 0%, rgba(16,16,18,1) 89%, rgba(23,29,45,1) 100%);
+}
+
+.centered-div {
+  width: 50rem;
+  height: 75svh;
+  background-color: #497CBF;
+  box-shadow: 10px 10px #071C59;
+  color: white;
+  display: grid;
+  grid-template-areas: 
+      'main main main main main main'
+      'footer footer footer footer footer footer';
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  padding: 20px;
+  border: 4px solid black;
+}
+
 a > span {
     font-size: 25px;
     font-weight: 800;
@@ -35,4 +57,10 @@ a > span {
 
 h2 {
     line-height: 0;
+}
+
+@media (max-width: 768px) {
+    #links {
+        font-size: 12px;
+    }
 }
