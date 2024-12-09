@@ -23,12 +23,35 @@
                 <br>
                 <div class="what" style="grid-area: 11">
                     <a href="./prelude.html">prelude</a>
-                    <p>Not really poems, but wanted to share nonetheless.</p>
+                    <p>A prelude for what's to come </3</p>
                 </div>  
             </div>
+            <div id="mobile-warning" style="display: none;">
+                <p>Hi! You seem to be on mobile. As a warning, the website looks much, much worse on mobile than PC; so I heavily recommend you go on a PC. But, it's still readable on mobile, so up to you.</p>
+            </div>
             <footer>
-                <p style="line-height: 0px; padding: 0;">I love you <3</p>
+                <p style="line-height: 0px; padding: 0;">Welcome <3</p>
            </footer>
         </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                // Define the breakpoint for mobile devicesl
+                const mobileBreakpoint = 768; // Width in pixes
+                const targetDivId = "mobile-warning"; // The ID of the div to show
+    
+                // Check if the device width is below the mobile breakpoint
+                if (window.innerWidth <= mobileBreakpoint) {
+                    // Select the footer and hide it
+                    const footer = document.querySelector("footer");
+                    if (footer) {
+                        footer.classList.add("hidden");
+                    }
+
+                    // Ensure the target div is visible (if necessary)
+                    const targetDiv = document.getElementById(targetDivId);
+                    targetDiv.style.display = "inherit"
+                }
+            });
+        </script>
     </body>
 </html>
