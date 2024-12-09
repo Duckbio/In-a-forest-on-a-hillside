@@ -45,6 +45,9 @@ a > span {
 }
 
 #links {
+    margin: 0px;
+    line-height: 1rem !important;
+    background-color: #497CBF;
     text-align: justify;
     line-height: 0;
 }
