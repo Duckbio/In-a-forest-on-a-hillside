@@ -26,7 +26,7 @@ body, html {
   align-items: flex-start;
   text-align: center;
   padding: 20px;
-  overflow-y: scroll;
+  overflow-y: scroll; /* HELP why is this not registering */
   border: 4px solid black;
 }
 
