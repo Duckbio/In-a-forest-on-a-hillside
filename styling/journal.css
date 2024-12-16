@@ -3,7 +3,7 @@
     justify-self: self-start !important; */
     text-align: left;
     width: 50rem;
-    display: grid;
+    display: grid; 
     row-gap: 7px;
 }
 
