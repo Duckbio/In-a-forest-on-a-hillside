@@ -1,0 +1,57 @@
+body, html {
+    background: rgb(22,38,15);
+    background: radial-gradient(circle, rgba(22,38,15,1) 0%, rgba(1,13,0,1) 15%, rgba(0,1,13,1) 100%);
+}
+
+.centered-div {
+    width: 50rem;
+    height: 75svh;
+    box-shadow: 10px 10px #00010D;
+    color: white;
+    background-color: #010D00;
+    padding: 20px;
+    border: 4px solid black;
+    overflow-y: scroll;
+}
+
+.writing-div {
+    background-color: #010D00;
+    overflow-y: scroll;
+}
+
+footer > p {
+    width: 50rem;
+    background-color: #A69576;
+    text-align: center;
+    color: #0D0D0D;
+}
+
+h2, a, h1, pre, p{
+  color: #A69576;
+}
+
+.main {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .centered-div {
+    width: 20rem;
+    height: 90svh;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding: 20px;
+    border: 4px solid black;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .main > h2 {
+    font-size: 15px;
+  }
+}
