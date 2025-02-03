@@ -37,6 +37,17 @@ img {
   vertical-align: bottom;
 }
 
+footer {
+  background: none;
+}
+
+footer > p {
+  width: 70rem;
+  background-color: rgba(56,3,6,1);
+  text-align: center;
+  color: white;
+}
+
 @media (max-aspect-ratio: 1/1) {
   li {
     height: 30vh;
