@@ -1,7 +1,9 @@
-add footer saying "I will love you until my very last breath' to photo collection
+add footer saying "I will love you until my very last breath' to photo collection (TICK)
 in foucault, swap 'I hate without a doubt' and 'make me want to dissapear' (TICK)
 fix mobile-warning display (TICK)
 meow?
+replace ending for 'a review of my suicide note' with 'I think I'll give it a 6/10' instead of 'I guess, okay bye'
+
 
 make:
 "as each breath's a hollow waste
