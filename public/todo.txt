@@ -2,7 +2,10 @@ add footer saying "I will love you until my very last breath' to photo collectio
 in foucault, swap 'I hate without a doubt' and 'make me want to dissapear' (TICK)
 fix mobile-warning display (TICK)
 meow?
-replace ending for 'a review of my suicide note' with 'I think I'll give it a 6/10' instead of 'I guess, okay bye'
+replace ending for 'a review of my suicide note' with 'I think I'll give it a 6/10' instead of 'I guess, okay bye' (TICK)
+Replace sandy beach pt 2 colour scheme with the text color as bg and somehting either blue or black as text, 
+and add pebbles to the bottom, a few in the corner, to look like a beach :)
+and while ur at it add a tree to a sandy beach pt 1
 
 
 make:
@@ -13,3 +16,4 @@ I still must say
 You'll stay in my heart always
 even though we left eachother in such a haste"
 better typeshi (as each breath's a hollow waste, that leaves me with distaste might roll better)
+
