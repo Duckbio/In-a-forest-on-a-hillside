@@ -11,13 +11,27 @@
         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <p>I'm so sorry you had to meet me. If you hadn't, you'd have been spared the pain of witnessing your lover, who you once cherised and adored, show his true colours. I paint this image of myself to others of being a caring, pure and loving soul; but, in reality, I am what I have said in these short poems. I am evil, I am selfish and I am narcissistically self-centered.</p>
-        <p>I'm so sorry I used you to fill a void. I think I loved you, deeply, but in the same time, I think I somehow also managed to use you as an object to fill a hole in myself. I didn't really stop and consider your feelings, all of my actions were about myself. Even when I tried to change my behaviour to make you happier, I think I did it out of a desire to not lose you. I didn't do it out of a desire to make <em>you</em> happy.</em></p>
-        <p>Maybe I'm remembering things wrong; truth is, I only remember the bad. I looked through some older messages between us a few days ago and it struck me how happy we were, even a few days before we broke up. It's really surprising how fast it all collapsed, but I guess the cracks started to show long before the collapse itself.</p>
-        <p>I'm so sorry you had to live with me and my worst, I'm so sorry you have to have memories of my existence. I honestly wish I could make you forget about me, make you never have to relive the pain of reminiscing. I hope you find someone who loves you like you deserve to be loved, not like I loved you. It'll hurt like hell to see you cherish someone else, but my suffering is deserved anyway.</p>
-        <p>As a way to make things up, I've vowed to never ever love again. I've come to the conclusion that there is no limit to my evil and there is no way to stop it from blooming, so the only way to stop it from hurting others is to close myself off forever. I have stopped showing people my deep emotions, or my true feelings or anything of the sort. I've started living as a husk and it's for the better.</p>
-        <p>I don't want you to forget me, but it's for the best. Please, please, please, be gentle upon yourself. You are the most beautiful soul ever and because of that, I will never stop thinking of you. I will never stop staring at the ceiling at night, reminiscing of the moments we had together. I'll always look out the window and see your face in a stranger.</p>
-        <p>I love you, and I am so ashamed for what I did.</p>
-        <p>I love you and I am so sorry.</p>
+        <div class="container">
+            <p>I'm so sorry you had to meet me. If you hadn't, you'd have been spared the pain of witnessing your lover, who you once cherised and adored, show his true colours. I paint this image of myself to others of being a caring, pure and loving soul; but, in reality, I am what I have said in these short poems. I am evil, I am selfish and I am narcissistically self-centered.</p>
+            <p>I'm so sorry I used you to fill a void. I think I loved you, deeply, but in the same time, I think I somehow also managed to use you as an object to fill a hole in myself. I didn't really stop and consider your feelings, all of my actions were about myself. Even when I tried to change my behaviour to make you happier, I think I did it out of a desire to not lose you. I didn't do it out of a desire to make <em>you</em> happy.</em></p>
+            <p>Maybe I'm remembering things wrong; truth is, I only remember the bad. I looked through some older messages between us a few days ago and it struck me how happy we were, even a few days before we broke up. It's really surprising how fast it all collapsed, but I guess the cracks started to show long before the collapse itself.</p>
+            <p>I'm so sorry you had to live with me and my worst, I'm so sorry you have to have memories of my existence. I honestly wish I could make you forget about me, make you never have to relive the pain of reminiscing. I hope you find someone who loves you like you deserve to be loved, not like I loved you. It'll hurt like hell to see you cherish someone else, but my suffering is deserved anyway.</p>
+            <p>As a way to make things up, I've vowed to never ever love again. I've come to the conclusion that there is no limit to my evil and there is no way to stop it from blooming, so the only way to stop it from hurting others is to close myself off forever. I have stopped showing people my deep emotions, or my true feelings or anything of the sort. I've started living as a husk and it's for the better.</p>
+            <p>I don't want you to forget me, but it's for the best. Please, please, please, be gentle upon yourself. You are the most beautiful soul ever and because of that, I will never stop thinking of you. I will never stop staring at the ceiling at night, reminiscing of the moments we had together. I'll always look out the window and see your face in a stranger.</p>
+            <p>I love you, and I am so ashamed for what I did.</p>
+            <p>I love you and I am so sorry.</p>
+        </div>
+        <script>
+            // Yeah I know this isn't secure congrats on finding the password
+            let password = "iHateTheseOldPoemsSoMuch";
+            (function passcodeprotect() {
+                let passcode = prompt("Enter PassCode");
+                while (passcode !== password) {
+                    alert("Incorrect PassCode");
+                    return passcodeprotect();
+                }
+            }());
+            document.getElementsByClassName('container').style.display = "block";
+        </script>
     </body>
 </html>

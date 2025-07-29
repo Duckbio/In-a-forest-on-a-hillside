@@ -65,6 +65,16 @@
                     targetDiv.style.display = "inherit"
                 }
             });
+            // Yeah I know this isn't secure congrats on finding the password
+            let password = "iHateTheseOldPoemsSoMuch";
+            (function passcodeprotect() {
+                let passcode = prompt("Enter PassCode");
+                while (passcode !== password) {
+                    alert("Incorrect PassCode");
+                    return passcodeprotect();
+                }
+            }());
+            document.getElementsByClassName('centered-div').style.display = "grid";
         </script>
     </body>
 </html>
