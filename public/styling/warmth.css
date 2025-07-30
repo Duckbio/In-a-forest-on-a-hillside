@@ -1,14 +1,14 @@
 body, html {
-  background: #C9DFF2;
-  background: radial-gradient(circle, rgba(201, 223, 242, 1) 0%, rgba(147, 171, 191, 1) 53%, rgba(80, 112, 140, 1) 72%, rgba(33, 63, 89, 1) 84%, rgba(9, 31, 51, 1) 100%);
+  background: #739C8A;
+  background: radial-gradient(circle, rgba(115, 156, 138, 1) 0%, rgba(6, 8, 7, 1) 89%, rgba(17, 23, 20, 1) 100%);
 }
 
 .centered-div {
   width: 50rem;
   height: 75svh;
   box-shadow: 10px 10px rgba(11,17,8,1);
-  color: white;
-  background-color: #C9DFF2;
+  color: #F2F0CE;
+  background-color: #8EBFBA;
   padding: 20px;
   border: 4px solid black;
   overflow-y: scroll;
@@ -18,7 +18,6 @@ body, html {
 }
 
 .writing-div {
-  background-color: #C9DFF2;
   overflow-y: scroll;
 }
 
@@ -28,13 +27,13 @@ footer {
 
 footer > p {
   width: 50rem;
-  background-color: #50708C;
+  background-color: rgba(16,16,18,1);
   text-align: center;
-  color: #0D0D0D;
+  color: #F2F0CE;
 }
 
 h2, a, h1, pre, p{
-  color: #091F33;
+  color: black;
 }
 
 .main {
