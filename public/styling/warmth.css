@@ -69,6 +69,10 @@ h2, a, h1, pre, p{
     display: none;
   }
 
+  .main {
+    width: 20rem;
+  }
+
   .main > h2 {
     font-size: 1.5rem;
   }
