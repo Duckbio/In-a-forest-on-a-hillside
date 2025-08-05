@@ -51,7 +51,7 @@ h2, a, h1, pre, p{
   justify-content: space-between;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 55rem) {
   .centered-div {
     width: 20rem;
     height: 90svh;
