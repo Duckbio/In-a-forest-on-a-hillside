@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     word-wrap: break-word;
     background-color: #497CBF;
+    scrollbar-width: none;
     margin: 0;
     padding: 0;
 }

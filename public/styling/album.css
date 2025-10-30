@@ -12,6 +12,7 @@ body, html {
   padding: 20px;
   border: 4px solid black;
   overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 ul {
