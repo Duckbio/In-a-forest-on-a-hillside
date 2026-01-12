@@ -30,3 +30,7 @@ better typeshi (as each breath's a hollow waste, that leaves me with distaste mi
                 <p style="margin: 0;">The last two verses are quite obvious, but I'll explain nonetheless. 'their solace mocks their beholders' sends the message that the solace that the flowers exude mock us both, since we didn't and will never find it. Then, 'their beauty will never be met' is a double entendre, as it reiterates how solace will never be found by us and it also reminds that we will never spend a night on that hill ever again. This fact ends the poem with the line 'will parade the memory of others', as the orchids almost do us a favour of reminding the world of the night we had spent, regardless of the fact it is so far gone.</p>
                 <p style="margin: 0;">This is the last poem I wrote in this anthology about her, and I think it is a fitting ending. Though, there is more to come in later works; albeit much more lackluster than what I have created here.</p>
             </div>
+
+
+Add arrows back to all pages
+Remove repetiton of painting in you.html
